@@ -1,0 +1,135 @@
+#root {
+  max-width: 1580px;
+  background-color: black;
+  color: white;
+  background-size: cover;
+}
+
+.logo {
+  height: 2.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #acadc9aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.links{
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+img{
+  margin-right: 20px;
+  cursor: pointer;
+}
+span{
+  margin: 0 30px;
+  cursor: pointer;
+}
+.caro{
+  margin-top: 10px;
+}
+.title{
+  font-size: 3.5rem;
+  margin-left: -350px;
+  margin-top: -20%;
+  color: white;
+}
+.runtime{
+  color: white;
+  margin-left: -30%;
+}
+.desc{
+  color: white;
+  width: 50%;
+  margin-left: 120px;
+}
+.cards__img{
+  width: 200px;
+  height: 300px;
+}
+.cards__img:hover{
+  width: 220px;
+  height: 320px;
+  border-radius: 0.5rem;
+}
+.card__description{
+  width: 30%;
+}
+.cards{
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: 50%;
+  margin-bottom: 2.5%;
+  color: white;
+  }
+.card__title{
+  font-size: 2.2rem;
+  margin-top: 5%;
+}
+.card__rating{
+  font-size: 12px;
+}
+.movie__backdrop{
+  width: 1050px;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.movie__poster{
+  width: 220px;
+  height: 280px;
+  margin-top: -15%;
+  margin-left: 150px;
+  border-radius: 5%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Adjust the values to get the desired 3D effect */
+
+}
+.movie__name{
+  margin-left: 32%;
+  margin-top: -22%;
+  font-size: 3.5rem;
+  font-weight: 450;
+}
+.movie__tagline, .movie__rating, .movie__runtime, .movie__releaseDate{
+  margin-left: 32%;
+}
+.movie__genres{
+  margin-left: 30%;
+  margin-top: 10px;
+}
+.movie__genre{
+  border: 1.5px solid white;
+  border-radius: 2rem;
+  padding: 5px 5px 5px 5px;
+  margin-right: -2%;
+}
+.synopsisText{
+  margin-left: 32%;
+  margin-top:15px ;
+  font-size: 20px;
+  font-weight: 400;
+}
+.overview{
+  margin-left: 32%;
+  margin-bottom: 10%;
+}
+
